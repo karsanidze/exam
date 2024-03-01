@@ -21,12 +21,14 @@ def main():
             else:
                 print("Too small. Try again.\n")
 
-            if i >= 5:
+            if i >= 7:
                 print(f"Sorry, no more tries. The number was {n}")
                 break
         except ValueError:
             print(f"Please, enter a number\n")
+            continue
 
 
 if __name__ == "__main__":
     main()
+    
